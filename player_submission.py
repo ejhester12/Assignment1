@@ -40,6 +40,10 @@ class CustomPlayer():
         # default value of `eval_fn` to `CustomEvalFn()`
         self.eval_fn = eval_fn
         self.search_depth = search_depth
+        
+    def choose_queen(self, game):
+        #TODO return integer value 1 or 2 
+        return 1
 
     def move(self, game, legal_moves, time_left):
 
